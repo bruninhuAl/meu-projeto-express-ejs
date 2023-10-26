@@ -15,9 +15,9 @@ const produtos = [
   {id: 7, nome: "Capa Impermeável para carro", preco: "378,86", descricao: "Capa para chuva para pets", imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/s19f812401f1b462f8d5b953b1ea1c051n-01313f50c96bc466a116658341220369-640-0.jpg"},
   {id: 8, nome: "Colchão térmico para pets", preco: "78,86", descricao: "Colchão noturno térmico para uma boa noite", imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/hf205bdcdf279459cb6408b2ac9cf0c76n-0bde284ad379e6b67016657973733083-640-0.jpg"},
   {id: 9, nome: "Guia Pet 3m/5m", preco: "101,83", descricao: "Coleira para pets", imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/s45a6b6024e364675b18c15ca3b359791h-a8fb257c72d47ebe9416659559620495-640-0.jpg"},
-  {id: 10, nome: "nome", preco: "400", descricao: "descricao", imagem: "d"},
-  {id: 11, nome: "nome", preco: "400", descricao: "descricao", imagem: "d"},
-  {id: 12, nome: "nome", preco: "400", descricao: "descricao", imagem: "d"},
+  {id: 10, nome: "Casa DuraPets Dura House Preta", preco: "320,99", descricao: "Montagem simples, basta encaixar;", imagem: "https://images.petz.com.br/fotos/1643810757712.jpg"},
+  {id: 11, nome: "Areia Higiênica Pipicat", preco: "42,99", descricao: "Controle de odores superior com pipicat odor block", imagem: "https://images.petz.com.br/fotos/1618514739796.jpg"},
+  {id: 12, nome: "Antipulgas Elanco Capstar", preco: "22,95", descricao: "Indicado para cães de 1 a 11,4 kg a partir de 4 semanas de vida", imagem: "https://images.petz.com.br/fotos/1662658347727.jpg"},
 ]
 
 app.get('/', (req, res) => {
