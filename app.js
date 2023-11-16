@@ -20,6 +20,11 @@ const produtos = [
   {id: 12, nome: "Antipulgas Elanco Capstar", preco: "22,95", descricao: "Indicado para cães de 1 a 11,4 kg a partir de 4 semanas de vida", imagem: "https://images.petz.com.br/fotos/1662658347727.jpg"},
 ]
 
+function buscarProdutoPorID(id){
+  const produto = produtos.find(produto => produto.id == id)
+  return produto || null
+}
+
 app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
