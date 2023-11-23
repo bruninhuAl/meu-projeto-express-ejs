@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/produtos', (req, res) => {
-  res.render('produtos', { message: 'Olá, Mundo!' });
+  res.render('produtos', { produtos });
 });
 
 app.get('/contato', (req, res) => {
