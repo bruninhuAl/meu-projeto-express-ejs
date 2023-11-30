@@ -33,6 +33,11 @@ app.get('/produtos', (req, res) => {
   res.render('produtos', { produtos });
 });
 
+app.get('/produtos/:id', (req, res) => {
+  const produto = buscarProdutoPorID(req.params.id)
+  res.render('produto', { produto });
+});
+
 app.get('/contato', (req, res) => {
   res.render('contato', { message: 'Olá, Mundo!' });
 });

@@ -77,19 +77,6 @@
 }
 
 
-.footer_links ul li{
-    list-style: none;
-    margin-bottom: 1rem;
-}
-.footer_links ul li a{
-    color: #000;
-    text-decoration: none;
-    transition: all 0.2s linear;
-}
-.footer_links ul li a:hover{
-    text-decoration: none;
-    margin-left: 5px;
-}
 
 
 #button{
@@ -127,7 +114,3 @@
     }
 }
 
-.limpar{
-  border-radius: 50px;
-  background-color: #e3f2fd;
-}
